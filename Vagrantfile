@@ -87,8 +87,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       chef.json = {
         nginx: {
           docroot: {
-            path: '/var/lib/jenkins/jobs/blogapp/workspace/app/webroot',
-            force_create: true
+            path: '/var/lib/jenkins/jobs/blogapp/workspace/app/webroot'
           },
           default: {
             fastcgi_params: {
@@ -145,8 +144,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       chef.json = {
         nginx: {
           docroot: {
-            path: '/var/www/application/current/app/webroot',
-            force_create: true
+            owner: 'vagrant',
+            group: 'vagrant',
+            path: '/var/www/application/current/app/webroot'
           },
           default: {
             fastcgi_params: {
