@@ -1,0 +1,19 @@
+{
+    "name": "php_ci_book/blogapp",
+    "authors": [
+        {
+            "name": "Joji Koike",
+            "email": "joji.koike@gmail.com"
+        }
+    ],
+		"config": {
+			"vendor-dir": "Vendor"
+		},
+    "require": {
+        "cakephp/cakephp": "2.5.*",
+        "josegonzalez/cakephp-environments": "1.0.0"
+    },
+    "require-dev": {
+        "cakephp/debug_kit": "^2.2.0"
+    }
+}
