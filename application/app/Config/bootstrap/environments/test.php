@@ -7,4 +7,6 @@ Environment::configure('test', false, [
   'MYSQL_DBNAME' => 'test_blog',
   'MYSQL_TEST_DBNAME' => 'test_blog',
   'MYSQL_PREFIX' => '',
-]);
+], function () {
+    CakePlugin::load('Bdd');
+});
