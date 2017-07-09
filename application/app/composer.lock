@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "18e396a34c4d5dd79b7de6c9e3e96616",
+    "content-hash": "ddf05f747e22f7eb845ab006e49485dd",
     "packages": [
         {
             "name": "cakedc/migrations",
@@ -46,24 +46,24 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "2.5.9",
+            "version": "2.9.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "838ab7329d56108ad08423b723536a83ef1cf911"
+                "reference": "bfd2d21d782a69626bcf1ae2d22aad6e565fb29c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/838ab7329d56108ad08423b723536a83ef1cf911",
-                "reference": "838ab7329d56108ad08423b723536a83ef1cf911",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/bfd2d21d782a69626bcf1ae2d22aad6e565fb29c",
+                "reference": "bfd2d21d782a69626bcf1ae2d22aad6e565fb29c",
                 "shasum": ""
             },
             "require": {
                 "ext-mcrypt": "*",
-                "php": ">=5.2.8"
+                "php": ">=5.3.0"
             },
             "require-dev": {
-                "cakephp/debug_kit": "2.2.*",
+                "cakephp/cakephp-codesniffer": "^1.0.0",
                 "phpunit/phpunit": "3.7.*"
             },
             "bin": [
@@ -81,11 +81,11 @@
                 }
             ],
             "description": "The CakePHP framework",
-            "homepage": "http://cakephp.org",
+            "homepage": "https://cakephp.org",
             "keywords": [
                 "framework"
             ],
-            "time": "2015-08-07T01:33:44+00:00"
+            "time": "2017-05-26T01:15:23+00:00"
         },
         {
             "name": "composer/installers",
