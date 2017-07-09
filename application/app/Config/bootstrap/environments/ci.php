@@ -1,6 +1,6 @@
 <?php
 
-Environment::configure('development', false, [
+Environment::configure('ci', false, [
   'MYSQL_DB_HOST' => 'localhost',
   'MYSQL_USERNAME' => 'webapp',
   'MYSQL_PASSWORD' => 'password',
