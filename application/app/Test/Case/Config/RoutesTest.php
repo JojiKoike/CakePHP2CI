@@ -37,8 +37,6 @@ class RoutesTest extends CakeTestCase
     {
         $default = ['controller'=>'', 'action'=>'',
                     'pass'=>[], 'named'=>[], 'plugin'=>null];
-        var_dump(array_merge($default, $array));
-        var_dump(Router::parse($string));
         $this->assertEquals(array_merge($default, $array), Router::parse($string), $name);
     }
 }
