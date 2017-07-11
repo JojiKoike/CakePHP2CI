@@ -1,0 +1,9 @@
+<phpunit>
+  <filter>
+    <blacklist>
+      <directory suffix=".php">Test</directory>
+      <directory suffix=".php">Vendor</directory>
+      <directory suffix=".php">Plugin</directory>
+    </blacklist>
+  </filter>
+</phpunit>
